@@ -1,0 +1,132 @@
+body {
+  background-color: #ade8f4;
+  font-family: 'Audiowide', cursive;
+}
+
+
+.board {
+  width: 500px;
+  height: 500px;
+  background-color: #2f4858;
+  margin: auto;
+  border-radius: 25px;
+  border-style: outset;
+  font-family: 'Audiowide', cursive;
+
+}
+
+.timer {
+  font-size: 60px;
+  position: relative;
+  background-color: #f5cc00;
+  width:400px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  border-style: inset;
+  z-index: 0;
+}
+
+.timeLeft {
+  font-size: 35px;
+  background-color: #adf7b6;
+  width:200px;
+  height: 100px;
+  border-radius: 25px;
+  border-style: inset;
+  margin: auto;
+  margin-top: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#timer {
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#keyPress {
+  font-family: 'Audiowide', cursive;
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+#butn {
+  font-family: 'Audiowide', cursive;
+  background-color:#da5552;
+  cursor: pointer;
+  outline: none;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  /* padding-top: 10%; */
+  /* border-radius: 25px; */
+  /* border-style: outset; */
+  border-radius: 50%;
+  border: none;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0 9px #999;
+}
+
+#butn:hover {background-color: yellow}
+
+#butn:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#playAgain {
+  font-family: 'Audiowide', cursive;
+  background-color:#16db93;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  /* padding-top: 3%; */
+  border-radius: 25px;
+  border-style: outset;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  margin-top: 1%;
+}
+
+#playAgain span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#playAgain  span:after {
+  content: '\27BC';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.9s;
+}
+
+#playAgain:hover span {
+  padding-right: 25px;
+}
+
+#playAgain:hover span:after {
+  opacity: 1;
+  right: 0;
+}
