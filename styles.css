@@ -1,5 +1,5 @@
 body {
-  background-color: #00ccff;
+  background-color: #056CF2;
   font-family: 'Audiowide', cursive;
 }
 
@@ -7,7 +7,7 @@ body {
 .board {
   width: 500px;
   height: 500px;
-  background-color: #00ffcc;
+  background-color: #05AFF2;
   margin: auto;
   border-radius: 25px;
   border-style: outset;
@@ -18,7 +18,7 @@ body {
 .timer {
   font-size: 60px;
   position: relative;
-  background-color: #ffff00;
+  background-color: #F2E205;
   width:400px;
   height: 200px;
   margin: auto;
@@ -32,7 +32,7 @@ body {
 
 .timeLeft {
   font-size: 35px;
-  background-color: #ff00cc;
+  background-color: #F28705;
   width:200px;
   height: 100px;
   border-radius: 25px;
